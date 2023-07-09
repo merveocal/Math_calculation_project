@@ -12,7 +12,7 @@ namespace Math_calculation_project
         {
             // Kullanıcıdan alınan işleme göre hesaplama yapma
 
-            Console.Write("Lütfen isminizi giriniz : ");
+            Console.Write("Lütfen isminizi giriniz : ");          
             string isim = Console.ReadLine();
 
             Console.WriteLine();   // aradaki boşluk
@@ -21,12 +21,12 @@ namespace Math_calculation_project
 
             Console.WriteLine();
 
-            Console.Write("Lütfen birinci sayıyı girer misin : ");
+            Console.Write("Lütfen birinci sayıyı girer misin : ");    // burada kullanıcıdan değer alıyorum.
             int sayi1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine();
 
-            Console.Write("Güzel, Lütfen ikinci sayyı girer misin: ");
+            Console.Write("Güzel, Lütfen ikinci sayyı girer misin: ");    // aynı şekilde burda da kullanıcıdan değer aldım.
             int sayi2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine();
